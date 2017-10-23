@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_170005_innotas_i.InnotasIntegrationServer</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>InnotasIntegrationServer</name>
+        <script><![CDATA[var InnotasIntegrationServer = Class.create();
+InnotasIntegrationServer.prototype = {
+    initialize: function() {
+    },
+
+    type: 'InnotasIntegrationServer'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-23 15:20:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>fc9cb6a02b020300226c27b436da1536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>InnotasIntegrationServer</sys_name>
+        <sys_package display_value="Innotas Integration" source="x_170005_innotas_i">f27cba202b020300226c27b436da15e3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Innotas Integration">f27cba202b020300226c27b436da15e3</sys_scope>
+        <sys_update_name>sys_script_include_fc9cb6a02b020300226c27b436da1536</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-23 15:20:59</sys_updated_on>
+    </sys_script_include>
+</record_update>
